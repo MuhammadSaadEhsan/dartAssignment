@@ -89,7 +89,7 @@ meterToCent() {
   print("${meter2} meter is equal to ${meter2 * 100} centimeter\n");
 }
 
-// ----------------------------------temperature converter inner functions (a)
+// ----------------------------------temperature converter inner functions (b)
 FtoC() {
   print("\nEnter your temperature in fahrenheit");
   String? fahrenheitStr = stdin.readLineSync();
@@ -106,7 +106,7 @@ CtoF() {
       "${celcius} celcius is equal to ${((celcius * (5 / 9)) + 32)} fahrenheit.\n");
 }
 
-// ----------------------------------area converter inner functions (a)
+// ----------------------------------area converter inner functions (c)
 milesToYards() {
   print("\nEnter your number in miles");
   String? milesStr = stdin.readLineSync();
@@ -135,7 +135,7 @@ feetToYards() {
   print("${feet} feet is equal to ${feet / 3} yards");
 }
 
-// ----------------------------------weight converter inner functions (a)
+// ----------------------------------weight converter inner functions (d)
 KgTog() {
   print("\nEnter your number in kilograms");
   String? kgStr = stdin.readLineSync();
@@ -171,7 +171,7 @@ tonsToKg() {
   print("${tons} tons is equal to ${tons * 907.185} tons");
 }
 
-// ----------------------------------length converter inner functions (a)
+// ----------------------------------time converter inner functions (e)
 sToM() {
   print("\nEnter your number in seconds");
   String? secondStr = stdin.readLineSync();
